@@ -35,7 +35,7 @@ public class BilheteUnico {
             debito=TARIFA;
         }
         if(saldo >= debito){
-            saldo =-debito;
+            saldo -= debito;
             return "catraca liberada";
         }
         return "Saldo insufuciente";
